@@ -765,6 +765,13 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
   background: var(--background);
    border-color: var(--border-dim);
 }
+.p-threads_flexpane__header_channel_name {
+	color: var(--text-special) !important;
+}
+.p-threads_footer__input .p-message_input_field,
+.p-threads_footer__input .p-message_input_file_button {
+	background: var(--background) !important;
+}
 
 /* editor in thread reply */
 #convo_tab .message_input, #convo_tab textarea#msg_text {
