@@ -776,8 +776,10 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
 	border-color: var(--border-dim) !important;
 	color: var(--text);
 }
-.p-threads_view__default_background {
+.p-threads_view__default_background,
+.p-threads_view__divider_label {
 	background-color: var(--background-elevated) !important;
+	color: var(--text);
 }
 .p_threads_view_load_newer_button,
 .p_threads_view_load_older_button {
