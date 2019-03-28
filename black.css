@@ -121,22 +121,22 @@ ts-jumper input[type="text"],
   background: var(--background) !important;
 }
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
-    background: var(--background);
+	background: var(--background);
 }
 .p-message_pane__limited_history_foreword {	
-    color: var(--text);
+	color: var(--text);
 	background: var(--background-elevated);
 }
 
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
-    background-color: var(--background-hover);
+	background-color: var(--background-hover);
 }
 .c-message--light .c-message__sender .c-message__sender_link {
-    color: var(--text);
+	color: var(--text);
 }
 .c-message_list__day_divider__line,
 .p-threads_view__divider_line {
-    border-top: 1px solid var(--border-dim);
+	border-top: 1px solid var(--border-dim);
 }
 
 .c-message__body {
@@ -144,44 +144,45 @@ ts-jumper input[type="text"],
 }
 
 .c-message_list__day_divider__label__pill {
-    background: var(--background-elevated);
-    color: var(--text-bright);
+	background: var(--background-elevated);
+	color: var(--text-bright);
 }
 .attachment_group .inline_attachment.message_unfurl .attachment_source .attachment_source_name a, .attachment_group .inline_attachment.message_unfurl .attachment_source .attachment_source_name span
 {
 	color: var(--text);
 }
 .c-message_group {
-    background-color: unset;
-    border: 1px solid var(--border-dim);
+	background-color: unset;
+	border: 1px solid var(--border-dim);
 }
 .c-message_group:hover {
-    border-color: var(--border-dim);
+	border-color: var(--border-dim);
 }
 
 .msg_inline_attachment_column.column_border {
-    background-color: var(--border-dim);
+	background-color: var(--border-dim);
 }
 
 .c-message_attachment__border {
 	background-color: var(--background-elevated) !important;
 }
 .c-member_slug--link {
-    background: var(--background-elevated);
+	background: var(--background-elevated);
 }
 
 .channel_header, #col_messages, #footer {
    box-shadow: none;
 }
+
 /* buttons */
 .btn.disabled, .btn.disabled:active, .btn.disabled:hover, .btn:disabled, .btn:disabled:active, .btn:disabled:hover {
-    background-color: var(--background-light) !important;
+	background-color: var(--background-light) !important;
 }
 .btn_outline.hover, .btn_outline:focus, .btn_outline:hover {
-    background: var(--background-hover) !important;
+	background: var(--background-hover) !important;
 }
 .btn_basic:focus, .btn_basic:hover {
-    color: var(--text-special);
+	color: var(--text-special);
 }
 
 /* channel list */
@@ -369,6 +370,7 @@ ts-message:hover {
 .file_container:after{
    background-image: -webkit-linear-gradient(top,rgba(255,255,255,0) 0,#333 100%) !important;
 }
+
 .rxn,
 #col_channels,
 #col_channels_footer,
@@ -602,9 +604,11 @@ ts-message a.timestamp{
 .file_preview_action.btn.ts_tip:hover, .file_preview_link.btn.file_comment_link:hover {
    background-color: var(--background) !important;
 }
+
 .p-file_details__name {
-    color: var(--text);
+	color: var(--text);
 }
+
 /* user profile popup */
 #member_preview_scroller, #member_preview_web_container,
 .menu_member_header, .menu_member_footer {
@@ -768,7 +772,7 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
 #threads_msgs .inline_message_input_container.with_file_upload,
 #reply_container.upload_in_threads .inline_message_input_container {
   background: var(--background);
-   border-color: var(--border-dim);
+	border-color: var(--border-dim);
 }
 .p-threads_view {
 	background-color: var(--background) !important;
@@ -780,7 +784,7 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
 	color: var(--text);
 }
 .p-threads_view_reply--new_reply {
-	background-color: var(--background-bright);
+	background-color: var(--background-bright) !important;
 }
 .p-threads_view__default_background,
 .p-threads_view__divider_label {
