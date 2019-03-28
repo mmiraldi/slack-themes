@@ -132,7 +132,8 @@ ts-jumper input[type="text"],
 .c-message--light .c-message__sender .c-message__sender_link {
     color: var(--text);
 }
-.c-message_list__day_divider__line {
+.c-message_list__day_divider__line,
+.p-threads_view__divider_line {
     border-top: 1px solid var(--border-dim);
 }
 
