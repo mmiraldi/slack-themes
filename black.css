@@ -766,7 +766,7 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
    border-color: var(--border-dim);
 }
 .p-threads_view {
-	background: var(--background) !important;
+	background-color: var(--background) !important;
 }
 .p-threads_view_root,
 .p-threads_view_reply,
@@ -775,12 +775,12 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
 	color: var(--text);
 }
 .p-threads_view__default_background {
-	background: var(--background-elevated) !important;
+	background-color: var(--background-elevated) !important;
 }
 .p_threads_view_load_newer_button,
 .p_threads_view_load_older_button {
 	border-color: var(--border-dim) !important;
-	background: var(--background) !important;
+	background-color: var(--background) !important;
 }
 .p-threads_view_header__permalink,
 .p-threads_flexpane__header_channel_name {
