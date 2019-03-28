@@ -784,7 +784,7 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
 	color: var(--text);
 }
 .p-threads_view_reply--new_reply {
-	background-color: var(--background-bright) !important;
+	background-color: var(--background-light) !important;
 }
 .p-threads_view__default_background,
 .p-threads_view__divider_label {
