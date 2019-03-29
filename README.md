@@ -1,3 +1,7 @@
+# Slack Themes
+
+This is essentially a fork of [Slack Black Theme](https://github.com/widget-/slack-black-theme) by widget- with significant additions by Nockiro and mmiraldi, both of whom have proper forks of the original repo awaiting merge.
+
 # Slack Black Theme
 
 A darker, more contrasty, Slack theme.
