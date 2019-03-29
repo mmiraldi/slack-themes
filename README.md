@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
    let webviews = document.querySelectorAll(".TeamView webview");
 
    // Fetch our CSS in parallel ahead of time
-   const cssPath = 'https://raw.githubusercontent.com/Nockiro/slack-black-theme/master/custom.css';
+   const cssPath = 'https://mmiraldi.github.io/slack-themes/custom.css';
    let cssPromise = fetch(cssPath).then(response => response.text());
 
    let customCustomCSS = `
@@ -178,14 +178,9 @@ You can also target multiple people or conversations at once, i.e. to target con
 
 `git clone` the project and `cd` into it.
 
-Change the CSS URL to `const cssPath = 'http://localhost:8080/custom.css';`
+Change the CSS URL to `const cssPath = 'http://localhost:8888/custom.css';`
 
-Run a static webserver of some sort on port 8080:
-
-```bash
-npm install -g static
-static .
-```
+Run the included Python web server (cors.py) to host the css and enable cross-origin resource sharing. You can alternately run any other type of web server, but CORS is required for Slack to load your CSS.
 
 In addition to running the required modifications, you will likely want to add auto-reloading:
 
@@ -218,6 +213,9 @@ Instead of launching Slack normally, you'll need to enable developer mode to be 
 * Mac: `export SLACK_DEVELOPER_MENU=true; open -a /Applications/Slack.app`
 
 * Linux: `export SLACK_DEVELOPER_MENU=true && /usr/bin/slack`
+
+* Windows (shortcut): Edit the Slack shortcut (found on desktop, start menu, etc.) and change the target to:
+`C:\Windows\System32\cmd.exe /c " SET SLACK_DEVELOPER_MENU=TRUE && start %localappdata%\slack\slack.exe"`
 
 * Windows (PowerShell):
 
