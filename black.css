@@ -553,6 +553,11 @@ a:hover{
 ts-message a.timestamp{
   color: #aaa !important;
 }
+
+.im_browser_row.multiparty {
+	color: var(--text) !important;
+}
+
 #channels_scroller.show_which_channel_is_active ul li.active .im_name{
   color: #fff !important;
 }
