@@ -957,6 +957,15 @@ ts-thread .view_all_replies_container:hover {
     color: var(--text);
 }
 
+.c-select_button,
+.c-select_options_list__wrapper {
+	background-color: var(--background);
+}
+
+.c-sidebar_menu__list_item,
+.c-select_options_list__option {
+	color: var(--text);
+}
 
 #threads_msgs_scroller_div .threads_caught_up_divider .divider_line,
 #threads_msgs_scroller_div .threads_caught_up_divider .divider_label {
@@ -1210,8 +1219,12 @@ ts-jumper ts-jumper-container {
     background: var(--background-hover);
 }
 
-.channel_options_modal .c-fullscreen_modal__title {
+.channel_options_modal .c-fullscreen_modal__title,
+.c-fullscreen_modal__body {
     color: var(--text);
+}
+.p-prefs_modal__radiogroup label.p-prefs_modal__radiogroup--selected {
+    color: var(--background);
 }
 .c-fullscreen_modal__back:hover, .c-fullscreen_modal__close:hover {
     background-color: #e8e8e8;
