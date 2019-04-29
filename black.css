@@ -46,6 +46,9 @@ body {
     background: var(--background);
     color: var(--text);
 }
+strong {
+	color: var(--text-bright) !important;
+}
 hr {
     border: 0;
     border-bottom: 1px solid var(--background-elevated);
@@ -1255,6 +1258,18 @@ ts-jumper ts-jumper-container {
 }
 .p-apps_browser__app--selected {	
     background: var(--background-hover);
+}
+.p-app_space {
+	background: var(--background-elevated);
+	color: var(--text);
+}
+.p-app_space__subheader {
+	color: var(--text-bright);
+}
+.p-app_space_profile__info,
+.p-app_space_profile__screenshots,
+.p-app_space_profile__slash_commands {
+	background: var(--background);
 }
 /** menus **/
 
