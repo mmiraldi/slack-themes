@@ -1326,10 +1326,13 @@ ts-jumper ts-jumper-container {
 	color: var(--text-bright);
 }
 #member_preview_scroller .member_details .member_name_and_presence .member_name, #member_preview_web_container .member_details .member_name_and_presence .member_name, .menu_member_header .member_details .member_name_and_presence .member_name, .menu_member_header .member_details .member_current_status, .menu_member_header .member_details .member_timezone_value {
-	color: var(--text);
+	color: var(--text) !important;
 }
 .menu_member_header .member_details .member_current_status a, .menu_member_header .member_details .member_timezone_value a {
 	color: var(--text-special);
+}
+#member_preview_scroller a:not(.member_name):not(.current_status_preset_option):not(.member_details_manage_link):not(.current_status_presets_edit_link), .team_list_item a:not(.member_name):not(.current_status_preset_option):not(.member_details_manage_link):not(.current_status_presets_edit_link) {
+	color: var(--text);
 }
 
 /* channel detail view */
@@ -1435,6 +1438,7 @@ nav {
 .c-button--outline {
     background: var(--background-elevated);
     color: var(--text);
+    border-color: var(--border-dim);
 }
 .c-button--outline:active {
     background: var(--background-light);
