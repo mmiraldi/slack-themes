@@ -169,6 +169,12 @@ ts-jumper input[type="text"],
 .c-message_attachment__border {
 	background-color: var(--background-elevated) !important;
 }
+.c-message_attachment__author_name, .c-message_attachment__author_name.c-link--button {
+	color: var(--text);
+}
+.c-message_attachment__author_name:hover, .c-message_attachment__author_name.c-link--button:active, .c-message_attachment__author_name.c-link--button:focus, .c-message_attachment__author_name.c-link--button:hover {
+	color: var(--text-special);
+}
 .c-member_slug--link {
 	background: var(--background-elevated);
 }
